@@ -10,7 +10,7 @@ public class ChuckNorrisJokeService implements JokeService{
 	ChuckNorrisQuotes chuckNorrisQuotes;
 	
 	ChuckNorrisJokeService(ChuckNorrisQuotes chuckNorrisQuotes){
-		this.chuckNorrisQuotes = new ChuckNorrisQuotes();
+		this.chuckNorrisQuotes = chuckNorrisQuotes;
 	}
 	
 	@Override
